@@ -1,4 +1,6 @@
-image: jupyter/datascience-notebook
+
+image:
+  file: .gitpod.Dockerfile
 
 ports:
 - port: 8080
