@@ -1,3 +1,1 @@
-FROM python:3.7
-RUN apt update -y && apt upgrade -y
-RUN pip install pipenv
+FROM jupyter/datascience-notebook:ubuntu-20.04
